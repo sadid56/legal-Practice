@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/ls-icon-removebg-preview.png" type="image/x-icon">
     <title>Legal solution</title>
     <!--! tailwind and daisyUI cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -36,6 +37,7 @@
         .garamond{
             font-family: 'EB Garamond', serif;
         }
+      
       </style>
 </head>
 <body>
@@ -69,7 +71,7 @@
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+                  <a class="btn bg-[#B68C5A] text-white normal-case">Free Consultation</a>
                 </div>
               </div>
         </nav>
@@ -92,7 +94,7 @@
     <!--? main part -->
     <main class="max-w-screen-xl mx-auto">
         <!--! legal practicse -->
-        <section class="container mx-auto mt-16">
+        <section class="container mx-auto mt-16 px-5 md:px-0">
             <h2 class="font-extrabold text-4xl garamond text-center text-[#414040]">The Legal Practice Area</h2>
                 <p class="text-center poppins mt-5 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <!--* legal parcticse cards -->
@@ -366,5 +368,44 @@
             </div>
         </section>
     </main>
+    <!--? footer part -->
+    <footer class="footer p-10 bg-[#111] text-base-content max-w-screen-xl mx-auto mt-16 text-white">
+      <div>
+        
+        <div class="mb-5">
+          <img src="./images/logo.png" alt="" class="w-[110px]">
+        </div> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div>
+        <span class="footer-title">Newsletter</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-white">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="Email Address" class="input input-bordered w-full pr-16" /> 
+            <button class="btn bg-[#B68C5A] absolute top-0 right-0 rounded-l-none"><i class="fa-solid fa-rocket text-white text-xl hover:text-black"></i></button>
+          </div>
+        </div>
+      </div>
+    </footer>
+                                <!--! finished -->
 </body>
 </html>
